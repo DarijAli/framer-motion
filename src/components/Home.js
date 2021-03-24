@@ -8,6 +8,7 @@ const Home = () => {
       className="home container"
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
+      transition={{ delay: 1.5, duration: 1 }}
     >
       <h2 animate={{ fontSize: 50 }}>Welcome to Pizza Joint</h2>
       <Link to="/base">
